@@ -1,6 +1,6 @@
 # Awesome-Penetration-Testing-SQL-Injection
 
-# Top Penetration Testing & SQL Injection Tools Ecosystem
+## Top Penetration Testing & SQL Injection Tools Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on SQL Injection Detection, DAST Coverage & Authorized Exploitation*  
