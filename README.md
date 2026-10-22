@@ -62,97 +62,97 @@ The table below catalogs premier commercial and SaaS web application penetration
 
 ## 💻 Open-Source Penetration Testing &amp; SQLi Repositories
 
-Explore the premier open-source tools for SQL injection detection, web fuzzing, crawl analysis, and vulnerability exploitation. Each entry includes its live GitHub star badge (styled with `style=social&color=white`) linking directly to its stargazers page, strictly sorted in **descending order by GitHub star count**.
+Explore the premier open-source tools for SQL injection detection, web fuzzing, crawl analysis, and vulnerability exploitation. Each entry includes its live GitHub Stars_Badge (styled with `style=social&color=white`) linking directly to its stargazers page, strictly sorted in **descending order by GitHub Stars_Count**.
 
-### 1. [sqlmap](https://github.com/sqlmapproject/sqlmap) [![GitHub stars](https://img.shields.io/github/stars/sqlmapproject/sqlmap?style=social&color=white)](https://github.com/sqlmapproject/sqlmap/stargazers)
+### 1. [sqlmap](https://github.com/sqlmapproject/sqlmap) [![GitHub_Stars](https://img.shields.io/github/stars/sqlmapproject/sqlmap?style=social&color=white)](https://github.com/sqlmapproject/sqlmap/stargazers)
 * **License**: GPL-2.0 | **Language**: Python
 * **Description**: The industry-standard reference open-source SQL injection engine. Completely automates the process of detecting and exploiting SQL injection flaws and taking over database servers.
 * **Core Techniques**: Boolean-based blind, error-based, UNION query-based, stacked queries, time-based blind, and out-of-band DBMS queries.
 * **Key Features**: Comprehensive database fingerprinting, data dumping, direct DBMS shell access, password hash cracking, and seamless request file ingestion (`sqlmap -r request.txt`) exported straight from Burp Suite or OWASP ZAP.
 
-### 2. [Nuclei](https://github.com/projectdiscovery/nuclei) [![GitHub stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social&color=white)](https://github.com/projectdiscovery/nuclei/stargazers)
+### 2. [Nuclei](https://github.com/projectdiscovery/nuclei) [![GitHub_Stars](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=social&color=white)](https://github.com/projectdiscovery/nuclei/stargazers)
 * **License**: MIT | **Language**: Go
 * **Description**: Fast and customizable vulnerability scanner based on simple YAML-based DSL templates. Widely used for large-scale reconnaissance and targeted injection testing.
 * **Key Features**: Massive community template library, zero-false-positive design, asynchronous network requests, automated CVE checks, and direct support for fuzzing parameters to trigger SQL injection errors.
 
-### 3. [Katana](https://github.com/projectdiscovery/katana) [![GitHub stars](https://img.shields.io/github/stars/projectdiscovery/katana?style=social&color=white)](https://github.com/projectdiscovery/katana/stargazers)
+### 3. [Katana](https://github.com/projectdiscovery/katana) [![GitHub_Stars](https://img.shields.io/github/stars/projectdiscovery/katana?style=social&color=white)](https://github.com/projectdiscovery/katana/stargazers)
 * **License**: MIT | **Language**: Go
 * **Description**: Next-generation crawling and spidering framework designed to uncover hidden endpoints, forms, and injection parameters across modern web applications and single-page apps (SPAs).
 * **Key Features**: Headless browser crawling with Chrome, hybrid mode, JavaScript parsing, endpoint extraction, and standard pipeline piping directly into sqlmap or Nuclei.
 
-### 4. [ffuf](https://github.com/ffuf/ffuf) [![GitHub stars](https://img.shields.io/github/stars/ffuf/ffuf?style=social&color=white)](https://github.com/ffuf/ffuf/stargazers)
+### 4. [ffuf](https://github.com/ffuf/ffuf) [![GitHub_Stars](https://img.shields.io/github/stars/ffuf/ffuf?style=social&color=white)](https://github.com/ffuf/ffuf/stargazers)
 * **License**: MIT | **Language**: Go
 * **Description**: Blazingly fast web fuzzer written in Go. A staple in modern penetration testing for identifying hidden inputs, SQL injection parameters, and route anomalies.
 * **Key Features**: Multi-threaded concurrency, flexible filtering (by status code, response length, regex, line count), recursive scanning, and support for multi-wordlist parameter fuzzing.
 
-### 5. [OWASP ZAP](https://github.com/zaproxy/zaproxy) [![GitHub stars](https://img.shields.io/github/stars/zaproxy/zaproxy?style=social&color=white)](https://github.com/zaproxy/zaproxy/stargazers)
+### 5. [OWASP ZAP](https://github.com/zaproxy/zaproxy) [![GitHub_Stars](https://img.shields.io/github/stars/zaproxy/zaproxy?style=social&color=white)](https://github.com/zaproxy/zaproxy/stargazers)
 * **License**: Apache-2.0 | **Language**: Java
 * **Description**: The world's most widely deployed open-source web application security scanner and intercepting proxy. Maintained under the Software Freedom Conservancy.
 * **Key Features**: Automated active/passive vulnerability scanner, intercepting proxy, baseline CI/CD scan scripts, Docker automation images, WebSocket testing, and built-in rules for SQL injection auditing.
 
-### 6. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA) [![GitHub stars](https://img.shields.io/github/stars/digininja/DVWA?style=social&color=white)](https://github.com/digininja/DVWA/stargazers)
+### 6. [DVWA (Damn Vulnerable Web Application)](https://github.com/digininja/DVWA) [![GitHub_Stars](https://img.shields.io/github/stars/digininja/DVWA?style=social&color=white)](https://github.com/digininja/DVWA/stargazers)
 * **License**: GPL-3.0 | **Language**: PHP
 * **Description**: A vulnerable PHP/MySQL web application designed to help security professionals legally test their skills and benchmark tools against classic, blind, and second-order SQL injection.
 * **Key Features**: Adjustable difficulty tiers (Low, Medium, High, Impossible), comprehensive testbeds for automated scanners, and standard benchmark platform for verification.
 
-### 7. [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) [![GitHub stars](https://img.shields.io/github/stars/projectdiscovery/nuclei-templates?style=social&color=white)](https://github.com/projectdiscovery/nuclei-templates/stargazers)
+### 7. [Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) [![GitHub_Stars](https://img.shields.io/github/stars/projectdiscovery/nuclei-templates?style=social&color=white)](https://github.com/projectdiscovery/nuclei-templates/stargazers)
 * **License**: MIT | **Language**: YAML
 * **Description**: The official community repository powering Nuclei, containing thousands of ready-to-run vulnerability checks covering SQLi, CVEs, misconfigurations, and sensitive data exposures.
 
-### 8. [Nikto](https://github.com/sullo/nikto) [![GitHub stars](https://img.shields.io/github/stars/sullo/nikto?style=social&color=white)](https://github.com/sullo/nikto/stargazers)
+### 8. [Nikto](https://github.com/sullo/nikto) [![GitHub_Stars](https://img.shields.io/github/stars/sullo/nikto?style=social&color=white)](https://github.com/sullo/nikto/stargazers)
 * **License**: GPL-2.0 | **Language**: Perl
 * **Description**: Veteran open-source web server scanner that performs rapid assessments against dangerous files, outdated server software, and misconfigured database administration interfaces.
 
-### 9. [Wfuzz](https://github.com/xmendez/wfuzz) [![GitHub stars](https://img.shields.io/github/stars/xmendez/wfuzz?style=social&color=white)](https://github.com/xmendez/wfuzz/stargazers)
+### 9. [Wfuzz](https://github.com/xmendez/wfuzz) [![GitHub_Stars](https://img.shields.io/github/stars/xmendez/wfuzz?style=social&color=white)](https://github.com/xmendez/wfuzz/stargazers)
 * **License**: GPL-2.0 | **Language**: Python
 * **Description**: Versatile web application fuzzer created for finding vulnerabilities in web applications, testing GET/POST parameters for SQL injection, and evaluating custom payload dictionaries.
 
-### 10. [Arjun](https://github.com/s0md3v/Arjun) [![GitHub stars](https://img.shields.io/github/stars/s0md3v/Arjun?style=social&color=white)](https://github.com/s0md3v/Arjun/stargazers)
+### 10. [Arjun](https://github.com/s0md3v/Arjun) [![GitHub_Stars](https://img.shields.io/github/stars/s0md3v/Arjun?style=social&color=white)](https://github.com/s0md3v/Arjun/stargazers)
 * **License**: GPL-3.0 | **Language**: Python
 * **Description**: HTTP parameter discovery suite that uncovers hidden query parameters, JSON fields, and form inputs that are prone to SQL injection flaws.
 * **Key Features**: Capable of testing thousands of parameters in seconds using multi-threading and heuristic response divergence analysis.
 
-### 11. [Commix](https://github.com/commixproject/commix) [![GitHub stars](https://img.shields.io/github/stars/commixproject/commix?style=social&color=white)](https://github.com/commixproject/commix/stargazers)
+### 11. [Commix](https://github.com/commixproject/commix) [![GitHub_Stars](https://img.shields.io/github/stars/commixproject/commix?style=social&color=white)](https://github.com/commixproject/commix/stargazers)
 * **License**: GPL-3.0 | **Language**: Python
 * **Description**: Automated command injection and exploitation tool that pairs seamlessly with SQL injection testing workflows, especially when evaluating stacked query command executions (`xp_cmdshell`, `sys_eval`).
 
-### 12. [Ghauri](https://github.com/r0oth3x49/ghauri) [![GitHub stars](https://img.shields.io/github/stars/r0oth3x49/ghauri?style=social&color=white)](https://github.com/r0oth3x49/ghauri/stargazers)
+### 12. [Ghauri](https://github.com/r0oth3x49/ghauri) [![GitHub_Stars](https://img.shields.io/github/stars/r0oth3x49/ghauri?style=social&color=white)](https://github.com/r0oth3x49/ghauri/stargazers)
 * **License**: MIT | **Language**: Python
 * **Description**: An advanced cross-platform SQL injection detection and exploitation engine crafted from scratch to overcome tricky filters and complex WAF evasions where conventional tools struggle.
 
-### 13. [Arachni](https://github.com/Arachni/arachni) [![GitHub stars](https://img.shields.io/github/stars/Arachni/arachni?style=social&color=white)](https://github.com/Arachni/arachni/stargazers)
+### 13. [Arachni](https://github.com/Arachni/arachni) [![GitHub_Stars](https://img.shields.io/github/stars/Arachni/arachni?style=social&color=white)](https://github.com/Arachni/arachni/stargazers)
 * **License**: Capable Open Source | **Language**: Ruby
 * **Description**: High-performance modular DAST scanner built to train on modern web standards, featuring consistent recall rates across academic SQL injection benchmarks.
 
-### 14. [NoSQLMap](https://github.com/codingo/NoSQLMap) [![GitHub stars](https://img.shields.io/github/stars/codingo/NoSQLMap?style=social&color=white)](https://github.com/codingo/NoSQLMap/stargazers)
+### 14. [NoSQLMap](https://github.com/codingo/NoSQLMap) [![GitHub_Stars](https://img.shields.io/github/stars/codingo/NoSQLMap?style=social&color=white)](https://github.com/codingo/NoSQLMap/stargazers)
 * **License**: GPL-3.0 | **Language**: Python
 * **Description**: Automated penetration testing tool designed to audit and automate injection attacks against NoSQL database engines (MongoDB, CouchDB) and JSON parameter injection flaws.
 
-### 15. [Wapiti](https://github.com/wapiti-scanner/wapiti) [![GitHub stars](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=social&color=white)](https://github.com/wapiti-scanner/wapiti/stargazers)
+### 15. [Wapiti](https://github.com/wapiti-scanner/wapiti) [![GitHub_Stars](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=social&color=white)](https://github.com/wapiti-scanner/wapiti/stargazers)
 * **License**: GPL-2.0 | **Language**: Python
 * **Description**: Black-box web application vulnerability scanner that audits web pages and web forms, injecting SQL, XPath, and command payloads without inspecting underlying source code.
 
-### 16. [DSSS (Damn Small SQLi Scanner)](https://github.com/stamparm/DSSS) [![GitHub stars](https://img.shields.io/github/stars/stamparm/DSSS?style=social&color=white)](https://github.com/stamparm/DSSS/stargazers)
+### 16. [DSSS (Damn Small SQLi Scanner)](https://github.com/stamparm/DSSS) [![GitHub_Stars](https://img.shields.io/github/stars/stamparm/DSSS?style=social&color=white)](https://github.com/stamparm/DSSS/stargazers)
 * **License**: Public Domain | **Language**: Python
 * **Description**: Lightweight SQL injection scanner written under 100 lines of Python code by Miroslav Stampar (creator of sqlmap). Perfect for lightweight integration, education, and embedded audits.
 
-### 17. [BBQSQL](https://github.com/CiscoCXSecurity/bbqsql) [![GitHub stars](https://img.shields.io/github/stars/CiscoCXSecurity/bbqsql?style=social&color=white)](https://github.com/CiscoCXSecurity/bbqsql/stargazers)
+### 17. [BBQSQL](https://github.com/CiscoCXSecurity/bbqsql) [![GitHub_Stars](https://img.shields.io/github/stars/CiscoCXSecurity/bbqsql?style=social&color=white)](https://github.com/CiscoCXSecurity/bbqsql/stargazers)
 * **License**: MIT | **Language**: Python
 * **Description**: Blind SQL injection exploitation framework by Cisco CX Security. Designed to accelerate data extraction when SQL injection flaws do not output errors directly.
 
-### 18. [SQLiDetector](https://github.com/eslam3kl/SQLiDetector) [![GitHub stars](https://img.shields.io/github/stars/eslam3kl/SQLiDetector?style=social&color=white)](https://github.com/eslam3kl/SQLiDetector/stargazers)
+### 18. [SQLiDetector](https://github.com/eslam3kl/SQLiDetector) [![GitHub_Stars](https://img.shields.io/github/stars/eslam3kl/SQLiDetector?style=social&color=white)](https://github.com/eslam3kl/SQLiDetector/stargazers)
 * **License**: MIT | **Language**: Python
 * **Description**: Specialized multi-threaded tool that scans multiple endpoints, subdomains, and parameterized URLs concurrently for SQL injection vulnerabilities.
 
-### 19. [sqlmate](https://github.com/s0md3v/sqlmate) [![GitHub stars](https://img.shields.io/github/stars/s0md3v/sqlmate?style=social&color=white)](https://github.com/s0md3v/sqlmate/stargazers)
+### 19. [sqlmate](https://github.com/s0md3v/sqlmate) [![GitHub_Stars](https://img.shields.io/github/stars/s0md3v/sqlmate?style=social&color=white)](https://github.com/s0md3v/sqlmate/stargazers)
 * **License**: GPL-3.0 | **Language**: Python
 * **Description**: Companion tool for sqlmap that hunts for injection-prone endpoints and automates parameter discovery and payload preparation before handing off to sqlmap.
 
-### 20. [ending](https://github.com/cfreal/ending) [![GitHub stars](https://img.shields.io/github/stars/cfreal/ending?style=social&color=white)](https://github.com/cfreal/ending/stargazers)
+### 20. [ending](https://github.com/cfreal/ending) [![GitHub_Stars](https://img.shields.io/github/stars/cfreal/ending?style=social&color=white)](https://github.com/cfreal/ending/stargazers)
 * **License**: MIT | **Language**: Python
 * **Description**: Programmatic SQL injection framework utilizing Abstract Syntax Tree (AST) query generation. Ideal for navigating intricate WAF bypass rules and custom network protocols.
 
-### 21. [sqleech](https://github.com/0x6d61/sqleech) [![GitHub stars](https://img.shields.io/github/stars/0x6d61/sqleech?style=social&color=white)](https://github.com/0x6d61/sqleech/stargazers)
+### 21. [sqleech](https://github.com/0x6d61/sqleech) [![GitHub_Stars](https://img.shields.io/github/stars/0x6d61/sqleech?style=social&color=white)](https://github.com/0x6d61/sqleech/stargazers)
 * **License**: MIT | **Language**: Go
 * **Description**: Modern concurrent SQL injection testing tool written in Go with goroutine worker pools, zero runtime dependencies, SARIF output, and modern REST/GraphQL body fuzzing.
 
@@ -218,7 +218,7 @@ Contributions from the cybersecurity community are warmly welcomed!
 
 1. 🍴 **Fork** this repository.
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-security-tool`.
-3. ✍️ **Add your entry** under the appropriate section in `README.md` (keep descriptions objective, link official documentation, and add star badges).
+3. ✍️ **Add your entry** under the appropriate section in `README.md` (keep descriptions objective, link official documentation, and add Stars_Badges).
 4. 🚀 **Commit and push** your changes: `git commit -m "Add tool-name to open-source tools"`.
 5. 📬 **Submit a Pull Request** describing the addition and why it benefits penetration testers.
 
