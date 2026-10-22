@@ -28,8 +28,9 @@ Welcome to the definitive hub for **Penetration Testing &amp; SQL Injection (SQL
 - [💻 Open-Source Penetration Testing &amp; SQLi Repositories](#-open-source-penetration-testing--sqli-repositories)
 - [🛠️ Recommended Penetration Testing Stack Combinations](#️-recommended-penetration-testing-stack-combinations)
 - [🌟 Star History](#-star-history)
+- [💖 Support &amp; Sponsorship](#-support--sponsorship)
 - [🤝 How to Contribute](#-how-to-contribute)
-- [⚖️ Legal &amp; Authorized Testing Disclaimer](#️-legal--authorized-testing-disclaimer)
+- [⚖️ Legal &amp; Authorized Testing Disclaimer](#-legal--authorized-testing-disclaimer)
 
 ---
 
@@ -185,6 +186,29 @@ flowchart LR
 ## 🌟 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Penetration-Testing-SQL-Injection&type=dat&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Penetration-Testing-SQL-Injection&type=date&legend=top-left)
+
+---
+
+## 💖 Support &amp; Sponsorship
+
+Thank you for visiting and using **Awesome Penetration Testing &amp; SQL Injection**! Curating active tools, academic benchmarks, and vulnerability testing frameworks requires continuous research and effort.
+
+If you find this repository helpful for your security audits, penetration testing workflow, or ethical hacking research, here are several ways you can show support:
+
+* ⭐ **Star the repository** on GitHub to help boost visibility and reach more security engineers.
+* 🍴 **Fork and contribute** by submitting new open-source tools, SaaS updates, or documentation enhancements.
+* 📢 **Share it** with peers, colleagues, and cybersecurity groups on Twitter/X, LinkedIn, Discord, or Reddit.
+* ☕ **Buy me a coffee / Sponsor the project**: Support continuous curation and maintenance via the **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**:
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20me-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub Sponsors" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
 
 ---
 
