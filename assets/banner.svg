@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c16" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#140f2d" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <!-- Accent Laser Line Gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Scanning Radar Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes pulseHalo {
+        0%, 100% { transform: scale(1); opacity: 0.25; }
+        50% { transform: scale(1.15); opacity: 0.6; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-50px); opacity: 0; }
+        15% { opacity: 0.6; }
+        85% { opacity: 0.6; }
+        100% { transform: translateY(290px); opacity: 0; }
+      }
+      @keyframes laserStream {
+        0% { transform: translateX(-900px); }
+        100% { transform: translateX(900px); }
+      }
+      @keyframes dataNodePulse {
+        0%, 100% { r: 3px; fill-opacity: 0.4; }
+        50% { r: 5px; fill-opacity: 1; }
+      }
+      @keyframes terminalBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .radar-arm {
+        transform-origin: 780px 130px;
+        animation: radarSweep 10s linear infinite;
+      }
+      .halo-pulse {
+        transform-origin: 780px 130px;
+        animation: pulseHalo 4s ease-in-out infinite;
+      }
+      .scanning-beam {
+        animation: scanline 6s ease-in-out infinite;
+      }
+      .laser-motion {
+        animation: laserStream 4s linear infinite;
+      }
+      .node-1 { animation: dataNodePulse 2.5s infinite 0.2s; }
+      .node-2 { animation: dataNodePulse 3s infinite 0.7s; }
+      .node-3 { animation: dataNodePulse 2.8s infinite 1.2s; }
+      .node-4 { animation: dataNodePulse 2.2s infinite 1.8s; }
+      .cursor-blink { animation: terminalBlink 1s step-start infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="260" fill="url(#bgGrad)" rx="16" />
+  <rect width="898" height="258" x="1" y="1" fill="none" stroke="#334155" stroke-width="1.5" rx="15" />
+
+  <!-- Background Grid Pattern -->
+  <g opacity="0.12" stroke="#38bdf8" stroke-width="0.8">
+    <line x1="40" y1="0" x2="40" y2="260" />
+    <line x1="100" y1="0" x2="100" y2="260" />
+    <line x1="160" y1="0" x2="160" y2="260" />
+    <line x1="220" y1="0" x2="220" y2="260" />
+    <line x1="280" y1="0" x2="280" y2="260" />
+    <line x1="340" y1="0" x2="340" y2="260" />
+    <line x1="400" y1="0" x2="400" y2="260" />
+    <line x1="460" y1="0" x2="460" y2="260" />
+    <line x1="520" y1="0" x2="520" y2="260" />
+    <line x1="580" y1="0" x2="580" y2="260" />
+    <line x1="640" y1="0" x2="640" y2="260" />
+    <line x1="700" y1="0" x2="700" y2="260" />
+    <line x1="760" y1="0" x2="760" y2="260" />
+    <line x1="820" y1="0" x2="820" y2="260" />
+    <line x1="880" y1="0" x2="880" y2="260" />
+
+    <line x1="0" y1="40" x2="900" y2="40" />
+    <line x1="0" y1="90" x2="900" y2="90" />
+    <line x1="0" y1="140" x2="900" y2="140" />
+    <line x1="0" y1="190" x2="900" y2="190" />
+    <line x1="0" y1="240" x2="900" y2="240" />
+  </g>
+
+  <!-- Ambient Glow Background Blobs -->
+  <circle cx="120" cy="50" r="130" fill="#0284c7" opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="780" cy="130" r="100" fill="#ec4899" opacity="0.12" filter="url(#softGlow)" />
+  <circle cx="450" cy="220" r="120" fill="#6366f1" opacity="0.1" filter="url(#softGlow)" />
+
+  <!-- DYNAMIC ELEMENT 1: Vertical Scanning Beam -->
+  <g class="scanning-beam" opacity="0.5">
+    <rect x="0" y="0" width="900" height="2" fill="url(#laserGrad)" filter="url(#neonGlow)" />
+    <rect x="0" y="2" width="900" height="15" fill="url(#scanGrad)" />
+  </g>
+
+  <!-- DYNAMIC ELEMENT 2: Radar Graphic on Right Side (background decorative) -->
+  <g opacity="0.45">
+    <circle cx="780" cy="130" r="85" fill="none" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="780" cy="130" r="60" fill="none" stroke="#334155" stroke-dasharray="3,3" stroke-width="1.2" />
+    <circle cx="780" cy="130" r="35" fill="none" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1" />
+    <circle class="halo-pulse" cx="780" cy="130" r="70" fill="none" stroke="#06b6d4" stroke-opacity="0.5" stroke-width="1.5" />
+
+    <!-- Radar Target Nodes -->
+    <circle class="node-1" cx="750" cy="95" r="3.5" fill="#f43f5e" />
+    <circle class="node-2" cx="810" cy="110" r="3" fill="#38bdf8" />
+    <circle class="node-3" cx="765" cy="160" r="3" fill="#a855f7" />
+    <circle class="node-4" cx="820" cy="170" r="4" fill="#10b981" />
+
+    <!-- Crosshairs -->
+    <line x1="685" y1="130" x2="875" y2="130" stroke="#334155" stroke-width="1" stroke-dasharray="4,4" />
+    <line x1="780" y1="35" x2="780" y2="225" stroke="#334155" stroke-width="1" stroke-dasharray="4,4" />
+
+    <!-- Rotating Radar Arm -->
+    <g class="radar-arm">
+      <path d="M 780 130 L 860 110 A 85 85 0 0 0 780 45 Z" fill="#38bdf8" fill-opacity="0.12" />
+      <line x1="780" y1="130" x2="865" y2="130" stroke="#38bdf8" stroke-width="1.8" filter="url(#neonGlow)" />
+    </g>
+  </g>
+
+  <!-- DYNAMIC ELEMENT 3: Animated Bottom Laser Accent -->
+  <g overflow="hidden" clip-path="url(#borderClip)">
+    <clipPath id="borderClip">
+      <rect width="900" height="260" rx="16" />
+    </clipPath>
+    <line class="laser-motion" x1="-900" y1="258" x2="0" y2="258" stroke="url(#laserGrad)" stroke-width="3" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- ================= FOREGROUND CONTENT ================= -->
+
+  <!-- Top Category Chip / Terminal Prompt -->
+  <g transform="translate(48, 38)">
+    <rect width="270" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <!-- Terminal dots -->
+    <circle cx="14" cy="13" r="4" fill="#ef4444" />
+    <circle cx="26" cy="13" r="4" fill="#f59e0b" />
+    <circle cx="38" cy="13" r="4" fill="#10b981" />
+    <text x="50" y="17" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">
+      secops@sqli-lab:~$ ./pentest.sh<tspan class="cursor-blink" fill="#38bdf8">_</tspan>
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="48" y="105" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5" filter="url(#softGlow)">
+    Awesome Penetration Testing &amp; SQL Injection
+  </text>
+  <text x="48" y="105" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">
+    Awesome Penetration Testing &amp; SQL Injection
+  </text>
+
+  <!-- Subtitle -->
+  <text x="48" y="138" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400">
+    Curated DAST Scanners, SQLi Automation Engines, Exploitation Toolkits &amp; DevSecOps Pipelines
+  </text>
+
+  <!-- Interactive Pill Tags in Foreground -->
+  <g transform="translate(48, 172)">
+    <!-- Pill 1: SQLi Exploitation -->
+    <g transform="translate(0, 0)">
+      <rect width="145" height="32" rx="8" fill="url(#pillGrad)" stroke="#f43f5e" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="14" y="20.5" fill="#fda4af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">💉 SQLi Engines</text>
+    </g>
+
+    <!-- Pill 2: DAST Scanners -->
+    <g transform="translate(155, 0)">
+      <rect width="145" height="32" rx="8" fill="url(#pillGrad)" stroke="#0ea5e9" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="14" y="20.5" fill="#7dd3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ DAST Scanners</text>
+    </g>
+
+    <!-- Pill 3: Vulnerability Assessment -->
+    <g transform="translate(310, 0)">
+      <rect width="170" height="32" rx="8" fill="url(#pillGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="14" y="20.5" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ Vulnerability Audits</text>
+    </g>
+
+    <!-- Pill 4: Open Source & SaaS -->
+    <g transform="translate(490, 0)">
+      <rect width="155" height="32" rx="8" fill="url(#pillGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="14" y="20.5" fill="#6ee7b7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🚀 Open-Source &amp; SaaS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Metadata info -->
+  <text x="48" y="235" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500">
+    🔒 Authorized Penetration Testing • OWASP Top 10 Coverage • Production &amp; CI/CD Security Auditing
+  </text>
+</svg>
